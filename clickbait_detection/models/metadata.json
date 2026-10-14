@@ -1,0 +1,46 @@
+{
+  "best_model": "ShallowMLP",
+  "best_f1": 0.97804954531201,
+  "n_train": 23040,
+  "n_val": 2560,
+  "n_test": 6400,
+  "device": "cpu",
+  "results": [
+    {
+      "name": "Dummy",
+      "accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "train_time_s": 0.0006055831909179688
+    },
+    {
+      "name": "ShallowMLP",
+      "accuracy": 0.978125,
+      "precision": 0.9814348646947766,
+      "recall": 0.9746875,
+      "f1": 0.97804954531201,
+      "roc_auc": 0.9971647460937499,
+      "train_time_s": 19.012847661972046
+    },
+    {
+      "name": "DeepMLP",
+      "accuracy": 0.9746875,
+      "precision": 0.9874839537869063,
+      "recall": 0.9615625,
+      "f1": 0.974350854971501,
+      "roc_auc": 0.996230859375,
+      "train_time_s": 14.982288360595703
+    },
+    {
+      "name": "TextCNN",
+      "accuracy": 0.96734375,
+      "precision": 0.9728106228264306,
+      "recall": 0.9615625,
+      "f1": 0.9671538582429672,
+      "roc_auc": 0.9941417480468749,
+      "train_time_s": 27.161253690719604
+    }
+  ]
+}
